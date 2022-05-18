@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">Mobile_02_06</string>
+    <string name="app_name">Smart House</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="user">User</string>
+
+    <string name="enter_your_house">Enter Your House</string>
+    <string name="new_resident">New Resident</string>
 </resources>
