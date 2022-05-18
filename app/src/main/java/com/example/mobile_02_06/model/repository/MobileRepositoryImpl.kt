@@ -21,4 +21,8 @@ class MobileRepositoryImpl(private val service: NetworkService, private val disp
     override suspend fun getMobile(appId: String): ResultWrapper<List<MobileInfo>> = safeCall(dispatcher, apiCall = {
         service.getMobiles(appId)
     })
+
+    override suspend fun patchMobile(uuid: String): ResultWrapper<KeyDevice> = safeCall(dispatcher, apiCall = {
+        service.patchMobile(uuid)
+    })
 }

@@ -10,4 +10,6 @@ interface MobileRepository {
     suspend fun register(mobile: Mobile): ResultWrapper<KeyDevice>
 
     suspend fun getMobile(appId: String): ResultWrapper<List<MobileInfo>>
+
+    suspend fun patchMobile(uuid: String): ResultWrapper<KeyDevice>
 }
