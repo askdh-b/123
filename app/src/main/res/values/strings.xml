@@ -7,6 +7,25 @@
     <string name="password">Password</string>
     <string name="user">User</string>
 
+    <string name="sign_out">Sign Out</string>
     <string name="enter_your_house">Enter Your House</string>
     <string name="new_resident">New Resident</string>
+
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="your_home">Your Home</string>
+    <string name="rooms">ROOMS</string>
+    <string name="under_reconstruction">Under reconstruction</string>
+    <string name="save">SAVE</string>
+    <string name="profile">Profile</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_statics">Statics</string>
+    <string name="title_routines">Routines</string>
+    <string name="title_setting">Setting</string>
+
+    <string name="username">Username</string>
+    <string name="phone">Phone</string>
+    <string name="gender">Gender</string>
+    <string name="date_of_birth">Date Of Birth</string>
 </resources>

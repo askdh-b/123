@@ -9,11 +9,12 @@ import com.example.mobile_02_06.R
 import com.example.mobile_02_06.view.fragment.SignInFragment
 import com.example.mobile_02_06.viewmodel.activity.MainViewModel
 
-class MainActivity : AppCompatActivity() {
+class LoginActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
+        supportActionBar?.hide()
 
         val viewModel = ViewModelProvider(this)[MainViewModel::class.java]
 
@@ -22,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 }
 
 fun replace(context: Context, fragment: Fragment) {
-    val ft = (context as MainActivity).supportFragmentManager.beginTransaction()
+    val ft = (context as LoginActivity).supportFragmentManager.beginTransaction()
     ft.replace(R.id.fcvLogin, fragment)
     ft.commit()
 }

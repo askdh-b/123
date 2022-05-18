@@ -5,9 +5,15 @@
       <map>
         <entry key="..\:/Users/User/Desktop/MOBILE_02_06/app/src/main/res/drawable/button_corners.xml" value="0.1825" />
         <entry key="..\:/Users/User/Desktop/MOBILE_02_06/app/src/main/res/drawable/filter2_corners.xml" value="0.1825" />
+        <entry key="..\:/Users/User/Desktop/MOBILE_02_06/app/src/main/res/drawable/ic_routines.xml" value="0.1825" />
         <entry key="..\:/Users/User/Desktop/MOBILE_02_06/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/User/Desktop/MOBILE_02_06/app/src/main/res/layout/fragment_home.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/User/Desktop/MOBILE_02_06/app/src/main/res/layout/fragment_routines.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/User/Desktop/MOBILE_02_06/app/src/main/res/layout/fragment_setting.xml" value="0.358695652173913" />
         <entry key="..\:/Users/User/Desktop/MOBILE_02_06/app/src/main/res/layout/fragment_sign_in.xml" value="0.358695652173913" />
         <entry key="..\:/Users/User/Desktop/MOBILE_02_06/app/src/main/res/layout/fragment_sign_up.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/User/Desktop/MOBILE_02_06/app/src/main/res/layout/fragment_statics.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/User/Desktop/MOBILE_02_06/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>
