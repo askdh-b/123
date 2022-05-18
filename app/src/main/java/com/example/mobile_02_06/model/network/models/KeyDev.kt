@@ -1,4 +1,5 @@
 package com.example.mobile_02_06.model.network.models
 
-class KeyDev {
-}
+data class KeyDev(
+    val keyDevice: String
+)

@@ -2,14 +2,12 @@ package com.example.mobile_02_06.model.repository
 
 import com.example.mobile_02_06.model.models.Room
 import com.example.mobile_02_06.model.models.Token
+import com.example.mobile_02_06.model.network.ResultWrapper
+import com.example.mobile_02_06.model.network.models.AddedRoom
 
 interface RoomRepository {
 
-    fun create(room: Room)
+    suspend fun create(room: Room): ResultWrapper<AddedRoom>
 
-    fun get(token: Token)
-
-    fun patch(id: String, room: Room)
-
-    fun delete(id: String, token: Token)
+    suspend fun get(token: Token): ResultWrapper<com.example.mobile_02_06.model.network.models.Room>
 }

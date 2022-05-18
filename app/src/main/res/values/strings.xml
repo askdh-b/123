@@ -28,4 +28,18 @@
     <string name="phone">Phone</string>
     <string name="gender">Gender</string>
     <string name="date_of_birth">Date Of Birth</string>
+
+    <string name="add_room">Add Room</string>
+    <string name="enter_rooms_name">Enter Room\'s name</string>
+    <string name="select_rooms_icon">Select rooms\'s icon</string>
+
+    <string name="kitchen">Kitchen</string>
+    <string name="bedroom">Bedroom</string>
+    <string name="bathroom">Bathroom</string>
+    <string name="office">Office</string>
+    <string name="tv_room">TV Room</string>
+    <string name="living_room">Living Room</string>
+    <string name="garage">Garage</string>
+    <string name="toilet">Toilet</string>
+    <string name="kid_room">Kid Room</string>
 </resources>
